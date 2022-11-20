@@ -31,10 +31,11 @@ default-features = false
 features = [
   "runtime-tokio-rustls",
   "macros",
-  "postgres",
+ "postgres",
   "uuid",
   "chrono",
-  "migrate"
+  "migrate",
+  "offline"
 ]
 
 [dev-dependencies]
